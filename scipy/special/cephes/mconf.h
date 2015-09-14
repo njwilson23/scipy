@@ -107,6 +107,9 @@
 /* Define to support tiny denormal numbers, else undefine. */
 #define DENORMAL 1
 
+/* Variable for error reporting.  See mtherr.c.  */
+extern int merror;
+
 #define gamma Gamma
 
 /*
